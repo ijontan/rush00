@@ -6,7 +6,7 @@
 /*   By: itan <itan@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 18:03:08 by itan              #+#    #+#             */
-/*   Updated: 2022/08/20 12:24:43 by itan             ###   ########.fr       */
+/*   Updated: 2022/08/20 13:13:52 by itan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	rush(int c, int r)
 		}
 		else
 		{
-			print_row(c, 'b', ' ', 'b');
+			print_row(c, 'B', ' ', 'B');
 		}
 		i++;
 	}
@@ -48,11 +48,11 @@ void	print_row(int c, char start, char mid, char end)
 		}
 		else if (j == c - 1)
 		{
-			ft_putchar(mid);
+			ft_putchar(end);
 		}
 		else
 		{
-			ft_putchar(end);
+			ft_putchar(mid);
 		}
 		j++;
 	}
