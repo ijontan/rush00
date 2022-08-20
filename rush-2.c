@@ -6,11 +6,9 @@
 /*   By: itan <itan@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 18:03:08 by itan              #+#    #+#             */
-/*   Updated: 2022/08/20 13:15:06 by itan             ###   ########.fr       */
+/*   Updated: 2022/08/20 14:49:59 by itan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_putchar(char c);
 void	check_print(int i, int j, int r, int c);
