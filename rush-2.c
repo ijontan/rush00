@@ -6,7 +6,7 @@
 /*   By: itan <itan@student.42kl.edu.my>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 18:03:08 by itan              #+#    #+#             */
-/*   Updated: 2022/08/20 12:36:59 by itan             ###   ########.fr       */
+/*   Updated: 2022/08/20 13:15:06 by itan             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,6 @@
 
 void	ft_putchar(char c);
 void	check_print(int i, int j, int r, int c);
-void	rush(int c, int r);
-
-int	main(void)
-{
-	rush(5, 4);
-	return (0);
-}
 
 void	rush(int c, int r)
 {
@@ -61,9 +54,4 @@ void	check_print(int i, int j, int r, int c)
 	{
 		ft_putchar(' ');
 	}
-}
-
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
 }
